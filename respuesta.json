@@ -1,0 +1,59 @@
+{
+    "TransactionHeaderId" : 22253430,
+    "ReturnStatus" : "Success",
+    "ErrorCode" : null,
+    "ErrorExplanation" : null,
+    "PickSlip" : null,
+    "PickSlipLine" : null,
+    "pickLines" : [ {
+      "Locator" : null,
+      "PickSlipLine" : 1,
+      "PickSlip" : 1129158,
+      "PickedQuantity" : 1,
+      "SecondaryPickedQuantity" : null,
+      "SubinventoryCode" : "FGI",
+      "TransactionDate" : null,
+      "links" : [ {
+        "rel" : "self",
+        "href" : "https://servername/fscmRestApi/resources/version/pickTransactions/22253430/child/pickLines/22253431",
+        "name" : "pickLines",
+        "kind" : "item"
+      }, {
+        "rel" : "canonical",
+        "href" : "http://<servername>/fscmRestApi/resources/version/pickTransactions/22253430/child/pickLines/22253431",
+        "name" : "pickLines",
+        "kind" : "item"
+      }, {
+        "rel" : "parent",
+        "href" : "http://<servername>/fscmRestApi/resources/version/pickTransactions/22253430",
+        "name" : "pickTransactions",
+        "kind" : "item"
+      }, {
+        "rel" : "child",
+        "href" : "https://servername/fscmRestApi/resources/version/pickTransactions/22253430/child/pickLines/22253431/child/serialItemSerials",
+        "name" : "serialItemSerials",
+        "kind" : "collection"
+      }, {
+        "rel" : "child",
+        "href" : "https://servername/fscmRestApi/resources/version/pickTransactions/22253430/child/pickLines/22253431/child/lotItemLots",
+        "name" : "lotItemLots",
+        "kind" : "collection"
+      }, {
+        "rel" : "child",
+        "href" : "https://servername/fscmRestApi/resources/version/pickTransactions/22253430/child/pickLines/22253431/child/lotSerialItemLots",
+        "name" : "lotSerialItemLots",
+        "kind" : "collection"
+      } ]
+    } ],
+    "links" : [ {
+      "rel" : "self",
+      "href" : "https://servername/fscmRestApi/resources/version/pickTransactions/22253430",
+      "name" : "pickTransactions",
+      "kind" : "item"
+    }, {
+      "rel" : "canonical",
+      "href" : "https://servername/fscmRestApi/resources/version/pickTransactions/22253430",
+      "name" : "pickTransactions",
+      "kind" : "item"
+    } ]
+  }
